@@ -55,7 +55,7 @@ const CategoryForm = ({ selectedCategoryId }) => {
                     <label>Image:</label>
                     <input
                         type="file"
-                        name="image"
+                        name="images"
                         onChange={handleChange}
                         required={!selectedCategoryId}
                     />
